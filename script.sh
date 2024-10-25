@@ -35,7 +35,7 @@ EOF
 unzip volumes.zip
 
 # Mudando permissões do diretório Grafana
-chmod 777 -R Grafana/
+chmod 777 -R /Volumes/Grafana/
 
 #Baixando imagens e subindo imagem do arquivo docker-compose
 docker-compose up -d
